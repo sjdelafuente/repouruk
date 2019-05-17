@@ -1,0 +1,30 @@
+body {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+#bajadaDeTiutlo {
+  color: #666;
+}
+
+h1 {
+  font-size: 37px;
+  line-height: 46px;
+  font-family: tahoma, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.subtitulos {
+  font-size: 25px;
+  line-height: 38px;
+  font-family: tahoma, Helvetica, sans-serif;
+}
+
+p {
+  color: #333;
+  line-height: 27px;
+}
