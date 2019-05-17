@@ -1,0 +1,31 @@
+body {
+  font-family: Open Sans, sans-serif;
+  background-image: url("../img/emilia-home.jpg");
+  background-position: top right;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 75%;
+  color: #666;
+}
+
+#TWIST {
+  font-family: Raleway, sans-serif;
+  margin: 150px 50px 95px 0px;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-size: 400%;
+  font-weight: 700;
+}
+
+#EMILIA {
+  line-height: 30px;
+  font-family: Work Sans, sans-serif;
+  margin-top: 200px;
+  margin-left: 1px;
+  font-weight: 200;
+}
