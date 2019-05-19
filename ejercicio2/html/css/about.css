@@ -11,13 +11,16 @@ li {
     position: relative;
     margin-right: 1px;
     line-style: none;
-
   }
 
   a {
     text-decoration: none;
     color: #000;
     font-size: 100%;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   #navegador {
@@ -55,7 +58,6 @@ li {
   }
 
   .john2 {
-    margin-top: 10px;
     margin-left: 10px;
     font-family: 'Raleway', sans-serif;
   }
