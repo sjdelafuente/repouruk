@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  background-position: top right;
+  background-size: 75%;
+  background-repeat: no-repeat;
+}
+
+p.main-nav {
+  line-height: 54px;
+  text-align: right;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
+}
+
+.social-nav {
+  margin-right: 1px;
+}
