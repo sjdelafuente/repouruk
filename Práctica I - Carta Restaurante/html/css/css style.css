@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  border-bottom: 3px solid gray;
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+main {
+  overflow: hidden;
+}
+
+main nav {
+  width: 30%;
+  float: left;
+
+}
+
+main section {
+  width: 70%;
+  float: right;
+  padding: 24px;
+  border-left: 3px solid gray;
+}
