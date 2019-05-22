@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Santa María Bar - Formulario de CONTACTO</title>
+    <link rel="stylesheet" type="text/css" href="css/form.css">
+  </head>
+  <body>
+   <main>
+    <form action="santamaria.php" method="post">
+      <label for="origen" class="preguntas">¿De dónde sos?</label>
+        <select name="origen" required>
+          <option value="">Selecciona una opción...</option>
+          <option value="caba">Ciudad Autónoma de Buenos Aires</option>
+          <option value="gba">Gran Buenos Aires</option>
+          <option value="rdp">Fuera de Buenos Aires</option>
+          <option value="op">Otro País</option>
+        </select>
+
+      <label for="iluminacion">¿Qué te pareció la iluminación del ambiente?</label> <br>
+        <input type="radio" name="calificacion" value="mb" class="inputs"> Muy acorde <br>
+        <input type="radio" name="calificacion" value="b" class="inputs"> Buena, pero podría mejorar <br>
+        <input type="radio" name="calificacion" value="m" class="inputs"> Mala <br>
+      <label for="tipo_de_plato">¿Qué tipo de plato fue el que más te gustó?</label> <br>
+        <input type="radio" name="platos" value="e" class="inputs"> Entrada <br>
+        <input type="radio" name="platos" value="pp" class="inputs"> Plato Principal <br>
+        <input type="radio" name="platos" value="po" class="inputs"> Postre <br>
+        <input type="radio" name="platos" value="o" class="inputs"> Otros <br>
+      <label for="recomendacion">¿Recomendarías el lugar?</label> <br>
+        <input type="radio" name="decision" value="s" class="inputs"> Si
+        <input type="radio" name="decision" value="n" class="inputs"> No
+        <br>
+      <label for="why">¿Porqué?</label>
+        <textarea name="razones"></textarea> <br>
+
+        <label for="datos">Dejanos tus datos y nos pondremos en contacto con vos</label>
+
+          <label for="nombre"> Nombre: </label>
+        <div class="nombre">
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+        </div>
+
+          <label for="email"> Email: </label>
+        <div class="email">
+            <input type="email" id="email" name="email" placeholder="Tu email..." required> <br>
+        </div>
+        <button type="submit" name="enviar">Enviar</button>
+        <button type="reset" name="reiniciar">Resetear</button>
+
+    </form>
+   </main>
+  </body>
+</html>
