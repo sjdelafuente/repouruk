@@ -1,0 +1,112 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  width: 1140px;
+  background-color: #A9F5E1;
+  margin: 0 auto;
+}
+
+body header {
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  background-color: #F72408;
+  width: 1140px;
+  height: 60px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+body header img {
+  margin-left: 15px;
+  margin-top: 13px;
+  margin-bottom: 4px;
+  float: left;
+  position: relative;
+}
+
+.navegacion {
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.user {
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+body header div p {
+  margin: 10px;
+  display: inline;
+}
+
+body header div a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body form {
+
+    width: 1140px;
+    margin-top: 40px;
+}
+
+body form h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+
+body form label {
+  display: inline-block;
+  margin-left: 330px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+input[type=email], input[type=password] {
+  width: 460px;
+  padding: 12px 20px;
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.recordarme {
+  float: right;
+  margin-right: 350px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.boton {
+  margin-left: 330px;
+  margin-top: 40px;
+}
+
+button[type=submit] {
+  width: 170px;
+  height: 45px;
+  margin-top: 30px;
+  background: #2E2EFE;
+  color: white;
+  font-size: 16px;
+  border-radius: 15px;
+  border: 1px solid #A9F5E1;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}

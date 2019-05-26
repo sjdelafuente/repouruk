@@ -2,13 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Craftsy - LOGIN</title>
     <meta name="description" content="Roughly 155 characters">
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/stylelogin.css">
   </head>
   <body>
-    <!-- Content -->
+    <header>
+
+     <img src="img/logo.png" alt="Logo de Craftsy">
+
+      <div class="nav">
+          <p class="navegacion"><a href="#">SMARTPHONES</a></p>
+          <p class="navegacion"><a href="#">TABLETS</a></p>
+          <p class="navegacion"><a href="#">COMPUTADORAS</a></p>
+      </div>
+
+      <div class="user">
+          <p class="loggin"><a href="login.html">LOGIN</a></p>
+          <p class="register"><a href="registro.html">REGISTRO</a></p>
+      </div>
+
+    </header>
+
+
+    <div class="loggin">
+        <form class="login" action="login.php" method="post">
+
+          <h1>BIENVENIDO</h1>
+
+          <label for="login"> Email <br>
+          <input type="email" name="login" placeholder="Email">
+          </label>
+          <label for="contraseña"> Contraseña <br>
+          <input type="password" name="pswd" placeholder="Contraseña">
+          </label>
+        </form>
+    </div>
+
+    <label for="recordar" class="recordarme">
+      <input type="checkbox" name="recordar" value="Recordarme">
+      Recordarme
+    </label>
+
+    <div class="boton">
+      <button type="submit" name="ingresar">Ingresar</button>
+    </div>
+
+
   </body>
 </html>
