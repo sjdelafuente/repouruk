@@ -130,7 +130,7 @@ button a:hover {
 
 /* FOOTER */
 
-.footer-nav { margin-bottom: 24px;}
+.footer-nav { margin-bottom: 24px; }
 
 .main-footer .footer-nav {
   display: block;
@@ -173,31 +173,35 @@ button a:hover {
   }
 
   .main-nav ul li a {
-    display: inline;
     float: left;
-    height: 30px;
-    width: 16.1%;
+    position: relative;
+    padding: 14px;
+    height: 1px;
+    width: 16.4%;
+    left: 3px;
     background-color: #333;
     color: white;
     font-size: 12px;
     text-align: center;
     text-transform: uppercase;
-    line-height: 30px;
-    margin-right: 3px;
-    margin-bottom: 20px;
+    line-height: 1px;
+    margin-bottom: 24px;
+    margin-right: 1px;
   }
+
 
   .main-nav ul li a:hover {
     background-color: #666;
   }
 
-  .banner img {
-    display: inline-block;
-    width: 100%;
-  }
+
 
 /* MAIN */
 
+.banner img {
+display: inline-block;
+  width: 100%;
+}
 
 .vip-products {
   overflow: hidden;
@@ -258,13 +262,93 @@ button a:hover {
 @media screen and (min-width: 768px) {
 
 
+/* MAIN */
+
+  .banner img {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .vip-products {
+    overflow: hidden;
+   }
+
+  .product {
+    margin: 20px 1% 20px;
+    float: left;
+    width: 31.3%;
+  }
 
 
+  .photo-container {
+    position: relative;
+  }
+
+  .photo-container .photo {
+    margin-bottom: 10px;
+  }
+
+  .special {
+    top: 0;
+    position: absolute;
+    right: 5%;
+  }
+
+  .zoom {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    top: 40%;
+    right: 60%;
+    left: 0;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .3);
+    color: cyan;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .more {
+    font-size: 14px;
+  }
+
+  button a:hover {
+    padding: 8px;
+  }
+
+   .product button {
+    border: 1px solid #333;
+    background-color: #333;
+    padding: 12px;
+   }
 
 
+   /* FOOTER */
 
+   .main-footer .footer-nav {
+     background-color: tomato;
+     border-radius: 10px;
 
+   }
 
+   .main-footer ul li a {
+     display: inline;
+     position: relative;
+     float: left;
+     color: black;
+     background-color: tomato;
+     text-transform: none;
+     margin-left: 6px;
+     text-align: center;
+     left: 25%;
+   }
+
+   .main-footer ul li a:hover {
+     background-color: tomato;
+     padding: 2px;
+   }
 
 
 }
