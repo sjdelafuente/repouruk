@@ -330,8 +330,9 @@ button a:hover {
    .main-footer .footer-nav {
      background-color: tomato;
      border-radius: 10px;
-
+     padding: 80px 0;
    }
+
 
    .main-footer ul li a {
      display: inline;
@@ -342,7 +343,8 @@ button a:hover {
      text-transform: none;
      margin-left: 6px;
      text-align: center;
-     left: 25%;
+     left: 10%;
+     width: 12%;
    }
 
    .main-footer ul li a:hover {
