@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+
+body {
+  background-image: url("img/bg-body.png");
+  font-family: 'Raleway', sans-serif;
+}
+
+ion-icon {
+  font-size: 10px;
+}
