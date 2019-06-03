@@ -1,0 +1,89 @@
+* { box-sizing: border-box; }
+
+/* GENERALES */
+
+body {
+  background-image: url("images/bg-body.png");
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+ion-icon {
+  font-size: 3em;
+}
+
+
+h2 {
+  font-size: 38px;
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+p {
+  margin: 6px 12px;
+}
+
+button {
+  margin: 24px 12px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* CLASES de CONTENEDORES */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  width: 49%;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.card-image {
+  width: 50%;
+  margin-right: 32px;
+}
+
+.card-image img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 150px;
+  margin-left: 12px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.card-data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 7px;
+}
