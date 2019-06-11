@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * { box-sizing: border-box; }
 
 /* GENERALES */
@@ -169,3 +170,176 @@ button a:hover {
     }
 
   }
+=======
+* { box-sizing: border-box; }
+
+/* GENERALES */
+
+body {
+  background-image: url("images/bg-body.png");
+  width: 100%;
+  font-family: 'Raleway', sans-serif;
+}
+
+ion-icon {
+  font-size: 3em;
+}
+
+
+h2 {
+  font-size: 2em;
+  margin-left: 12px;
+  margin-bottom: 24px;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 12px;
+}
+
+
+button {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 12px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* CLASES de CONTENEDORES */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 99%;
+  margin: 0 auto;
+}
+
+/* TARJETA */
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 49%;
+  border-radius: 6px;
+  margin: 6 auto;
+}
+
+/* IMAGEN Y SOCIALMEDIA DE TARJETA */
+
+.card-image {
+  width: 100%;
+  margin-right: 32px;
+}
+
+.card-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 130px;
+  margin: 0 auto;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 12px;
+  margin-top: 28px;
+
+}
+
+/* DATA DE LA TARJETA */
+
+.card-data {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .card {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .card-image {
+    width: 70%;
+  }
+
+  .card-image img {
+    border-radius: 160px;
+  }
+
+  .card-data {
+    width: 70%;
+  }
+
+}
+
+  @media screen and (max-width: 768px) {
+
+
+    .card-image {
+      width: 100%;
+      margin: 12px 12px;
+    }
+
+    .card-image img {
+      width: 100%;
+      border-radius: 160px;
+    }
+
+    .card-data {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .social-media {
+      justify-content: space-between;
+      margin-left: 0px;
+      width: 100%;
+    }
+
+
+  }
+
+  @media screen and (max-width: 615px) {
+
+    .container {
+      flex-direction: column;
+      width: 100%;
+    }
+
+
+
+  }
+
+  @media screen and (max-width: 468px) {
+
+    .container, .card, .card-image img {
+      width: 100%;
+    }
+
+  }
+>>>>>>> 4c54dfe6d44842578b2526278527886ee3afdfdf

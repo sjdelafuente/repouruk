@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ESTILOS GENERALES */
 
 * { box-sizing: border-box; }
@@ -354,3 +355,128 @@ button a:hover {
 
 
 }
+=======
+/* ESTILOS GENERALES */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 15px;
+  font-family: sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nav {
+  margin-bottom: 24px;
+}
+
+/* REINICIAMOS TODOS LOS UL LI QUE ESTEN DENTRO DE UN NAV */
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+/* HEADER */
+
+.main-header .logo {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+  width: 140px;
+}
+
+.main-header .toggle-nav {
+  display: block;
+  background-color: #333;
+  color: white;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.main-header .toggle-nav span {
+  font-size: 32px;
+  line-height: 50px;
+}
+
+.main-nav ul li a {
+  display: block;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: 50px;
+  line-height: 50px;
+  margin-bottom: 1px;
+}
+
+.main-nav ul li a:hover {
+  background-color: #666;
+}
+
+/* HERO */
+
+.banner img {
+  /* visibility: hidden; invisibiliza la img pero ocupa el lugar igual. */
+  display: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+/* PRODUCTOS */
+
+.vip-products { margin-bottom: 30px; }
+
+.product { margin-bottom: 15px;}
+
+.photo-container {
+  position: relative;
+}
+
+.photo-container .photo {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.special {
+  top: 0;
+  position: absolute;
+  right: 24px;
+}
+
+.zoom {
+  display: block;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  top: 40%;
+  right: 0;
+  left: 0;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+a.more {
+  display: block;
+  background-color: #333;
+  padding: 12px;
+}
+
+@media screen and (min-width: 600px) {
+  body { background-color: green;}
+}
+>>>>>>> 4c54dfe6d44842578b2526278527886ee3afdfdf

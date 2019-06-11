@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 1140px;
+  background-color: #A9F5E1;
+  margin: 0 auto;
+}
+
+body header {
+  font-family: 'Verdana', sans-serif;
+  font-weight: bold;
+  background-color: #F72408;
+  position: fixed;
+  width: 1140px;
+  height: 60px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+body header img {
+  margin-left: 15px;
+  margin-top: 13px;
+  margin-bottom: 4px;
+  float: left;
+  position: relative;
+}
+
+.navegacion {
+  float: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.user {
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+body header div p {
+  margin: 10px;
+  display: inline;
+}
+
+body header div a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.productos {
+  width: 800px;
+  background-color: white;
+  overflow: hidden;
+  float: left;
+  margin-top: 90px;
+}
+
+.productos article {
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  width: 370px;
+}
+
+.productos article img {
+  width: 370px;
+}
+
+.productos article button {
+  background-color: #F72408;
+  border: 1px solid red;
+  width: 80px;
+  height: 40px;
+  float: left;
+  margin-top: 20px;
+}
+
+.productos article button a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.aside {
+  margin-top: 75px;
+  width: 320px;
+  overflow: hidden;
+  float: right;
+}
+
+.aside h2 {
+  margin: 15px 0;
+  padding: 5px;
+  background-color: white;
+}
+
+.aside h4, .aside article {
+  padding: 12px;
+  background-color: white;
+}
+
+.aside h4 { margin: 12px 0; }
+.aside article { margin-bottom: 1px; }
+
+
+.aside article img {
+  float: left;
+  margin-right: 12px;
+}
+
+.publicidad {
+  width: 320px;
+  overflow: hidden;
+  float: right;
+}
+
+.publicidad h2 {
+  padding: 5px;
+  background-color: white;
+}
+
+.publicidad article {
+  background-color: white;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.publicidad article img {
+  width: 300px;
+  height: 240px;
+}
